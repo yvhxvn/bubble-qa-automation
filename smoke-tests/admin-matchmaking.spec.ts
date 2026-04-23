@@ -18,12 +18,11 @@ test('admin-matchmaking', async ({ page }) => {
         .pressSequentially(PR_NAME, { delay: 100 });
     await page.waitForTimeout(1000);
 
-    // wait until the proposal with the correct name is visible
-    //await page.locator('div')
-    //    .filter({ hasText: PR_NAME })
-    //    .first()
-    //    .waitFor({ state: 'visible' });
-
+    //  ADD Wait until the proposal with the correct name is visible
+    await page.locator('div')
+        .filter({ hasText: PR_NAME })
+        .first()
+        .waitFor({ state: 'visible' });
     await page.getByRole('button', { name: 'View' })
         .first()
         .click();
