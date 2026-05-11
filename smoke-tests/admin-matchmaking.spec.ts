@@ -17,8 +17,7 @@ test('admin-matchmaking', async ({ page }) => {
     await page.getByRole('textbox', { name: 'Search' })
         .pressSequentially(PR_NAME, { delay: 100 });
     await page.waitForTimeout(1000);
-
-    //  ADD Wait until the proposal with the correct name is visible
+    
     await page.locator('div')
         .filter({ hasText: PR_NAME })
         .first()
