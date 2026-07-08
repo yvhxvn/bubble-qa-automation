@@ -6,7 +6,7 @@ A desktop test-automation tool I designed and built to validate the full **happy
 
 ---
 
-### Demo Video
+## Demo Video
 
 [Watch the video](https://drive.google.com/file/d/12aOG5VAocnAYUmmviIjYRNLx7RWV3odK/view?usp=sharing)
 
