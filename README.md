@@ -6,11 +6,11 @@ A desktop test-automation tool I designed and built to validate the full **happy
 
 ---
 
-## Demo
+### Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/xbesFeVDntU/maxresdefault.jpg)](https://youtu.be/xbesFeVDntU)
+[Watch the video](https://drive.google.com/file/d/12aOG5VAocnAYUmmviIjYRNLx7RWV3odK/view?usp=sharing)
 
-*▶ Click the thumbnail to watch the full walkthrough (~3 min).*
+<sub><u>**⚠️ Only after access**</u></sub>
 
 ---
 
@@ -62,7 +62,7 @@ The project is structured so it can drop into a CI/CD pipeline (sequential runne
 | # | Flow | What it verifies |
 |---|------|------------------|
 | 1 | **Project Request Creation** | A client can create a project request end to end and it lands in the database with a unique name. |
-| 2 | **Admin Matchmaking** | An admin can accept a request and assign a delivery team, moving it to the *Selection* stage. |
+| 2 | **Admin Matchmaking** | An admin panel. |
 | 3 | **Delivery Partner Submission** | A delivery partner can build and submit a full proposal, including services, KPIs, timeline, and signature. |
 | 4 | **Proposal Signing** | The client can review and sign the proposal. |
 | 5 | **Project Completion** | The project can be marked complete, closing the loop. |
@@ -104,40 +104,9 @@ equalreach-bubble/
 
 ---
 
-## Getting started
-
-### Requirements
+## Requirements
 - [Node.js](https://nodejs.org/) v18+
 - [Java](https://adoptium.net/) (required by Allure for report generation)
-
-### Setup
-
-```bash
-# 1. Clone
-git clone https://github.com/yvhxvn/equalreach-bubble.git
-cd equalreach-bubble
-
-# 2. Install dependencies
-npm install
-
-# 3. Install the Playwright browser
-npx playwright install chromium
-
-# 4. Create your .env and fill in the values
-
-# 5. Launch the desktop app
-npm run app
-```
-
-Then just press **Run** in the app window and let the full cycle play out.
-
-### Running a single flow (optional, for development)
-
-```bash
-npx playwright test smoke-tests/pr-creation.spec.ts --headed
-```
-
----
 
 ## Notes & design decisions
 
@@ -149,7 +118,7 @@ npx playwright test smoke-tests/pr-creation.spec.ts --headed
 
 ## Author
 
-Built entirely by **Yevhenii Myronenko** — architecture, automation strategy, stability engineering, desktop app, and reporting.
+Built entirely by **Yevhenii Myronenko** — test architecture, automation strategy, desktop app, and reporting.
 
 - GitHub: [@yvhxvn](https://github.com/yvhxvn)
 - LinkedIn: [Yevhenii Myronenko](https://www.linkedin.com/in/yevhenii-myronenko-5a3919306/)
