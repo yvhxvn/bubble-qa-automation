@@ -118,7 +118,7 @@ equalreach-bubble/
 
 ## Author
 
-Built entirely by **Yevhenii Myronenko** — test architecture, automation strategy, desktop app, and reporting.
+Built by **Yevhenii Myronenko** — test architecture, automation strategy, desktop app, and reporting.
 
 - GitHub: [@yvhxvn](https://github.com/yvhxvn)
 - LinkedIn: [Yevhenii Myronenko](https://www.linkedin.com/in/yevhenii-myronenko-5a3919306/)
